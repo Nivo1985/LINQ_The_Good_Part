@@ -6,6 +6,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Num_2_Pipelines", "Num_2_Pi
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Num_3_ExtendingLinq", "Num_3_ExtendingLinq\Num_3_ExtendingLinq.csproj", "{A78B7420-EDD7-4EA3-BC78-03451BBEADFB}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Num_4_Laziness", "Num_4_Laziness\Num_4_Laziness.csproj", "{6BE3839E-EF48-4057-AD85-9082F317136B}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -24,5 +26,9 @@ Global
 		{A78B7420-EDD7-4EA3-BC78-03451BBEADFB}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{A78B7420-EDD7-4EA3-BC78-03451BBEADFB}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{A78B7420-EDD7-4EA3-BC78-03451BBEADFB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6BE3839E-EF48-4057-AD85-9082F317136B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6BE3839E-EF48-4057-AD85-9082F317136B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6BE3839E-EF48-4057-AD85-9082F317136B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6BE3839E-EF48-4057-AD85-9082F317136B}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
