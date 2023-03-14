@@ -1,5 +1,5 @@
 ﻿namespace Num_1_Patterns;
-
+// funny sum. Sum the comma seperated numbers but skip three smallest one
 public static class Solution
 {
     public static int Calculate_Old(string scores)

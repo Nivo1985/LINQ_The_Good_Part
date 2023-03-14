@@ -1,8 +1,4 @@
-﻿// See https://aka.ms/new-console-template for more information
-
-// funny sum. Sum the comma seperated numbers but skip five smallest one
-
-using Num_1_Patterns;using Num_1_Patterns.Demos;
+﻿using Num_1_Patterns;using Num_1_Patterns.Demos;
 
 var input = "10,4,2,2,5,6,1,0,0,1";
 var resultOld =Solution.Calculate_Old(input);
