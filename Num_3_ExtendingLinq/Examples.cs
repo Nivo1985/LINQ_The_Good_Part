@@ -36,8 +36,5 @@ public class Examples
     public IEnumerable<KeyValuePair<string, int>> CountBy(string[] strings)
     {
         return strings.CountBy(x => x switch { "A" or "B" or "C" => x, _ => "?" });
-
-        //return strings.GroupBy(x => x switch { "A" or "B" or "C" => x, _ => "?" })// not optimal in large collections
-        //.Select(x => new { Key = x.Key, Count = x.Count() });
     }
 }

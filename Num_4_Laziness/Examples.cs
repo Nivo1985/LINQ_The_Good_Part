@@ -3,17 +3,8 @@
 namespace Num_4_Laziness;
 
 public class Examples
-{
+{   
     public void Deffer1()
-    {
-        var input = new List<string>{ "A", "B", "C", "D", "E" };
-
-        input.Select(s => s.ToLower());
-        Console.WriteLine("Deffer1 DONE");
-        Console.WriteLine("==============");
-    }
-    
-    public void Deffer2()
     {
         var input = new List<string>{ "A", "B", "C", "D", "E" };
 
@@ -27,7 +18,7 @@ public class Examples
         Console.WriteLine("==============");
     }
     
-    public void Deffer3()
+    public void Deffer2()
     {
         var input = new List<string>{ "A", "B", "C", "D", "E" };
 

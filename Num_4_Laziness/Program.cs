@@ -3,7 +3,9 @@
 using Num_4_Laziness;
 
 Examples examples = new();
-// examples.Deffer1(); // How many times?
-// examples.Deffer2();
+// How many times?
+examples.Deffer1();
+examples.Deffer2();
+examples.MultiUsage1();
 examples.MultiUsage2();
-//Console.ReadLine();
+Console.ReadLine();

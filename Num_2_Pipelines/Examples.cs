@@ -34,13 +34,14 @@ public class Examples
             .Select(x => new { Start = int.Parse(x[0]), End = int.Parse(x[x.Length == 1 ? 0 : 1]) })
             .SelectMany(x => Enumerable.Range(x.Start, x.End - x.Start + 1))
             .OrderBy(x=>x)
-            .Distinct();
+            .Distinct().ToList();
 
+        
         var result2 = input.Split(",")
             .Select(x => x.Split("-"))
             .Select(x => new { Start = int.Parse(x[0]), End = int.Parse(x.Last()) })
             .SelectMany(x => Enumerable.Range(x.Start, x.End - x.Start + 1))
             .OrderBy(x=>x)
-            .Distinct();
+            .Distinct().ToList();
     }
 }
