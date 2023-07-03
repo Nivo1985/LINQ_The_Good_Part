@@ -45,7 +45,7 @@ public class Examples
             new PageInfo("Azure DB"), 
             new PageInfo("Blazor"), 
             new PageInfo("WPF"),
-            new PageInfo("Azure CI/CI"),
+            new PageInfo("Azure CI/CD"),
             new PageInfo("WPF UX"),
         };
 

@@ -16,6 +16,7 @@ public class _4Transform:Basic
         return result;
     }
 
-    public Dictionary<int, string> New() => people.Select(p => new { p.Id, p.Name })
+    public Dictionary<int, string> New() => people
+        .Select(p => new { p.Id, p.Name })
         .ToDictionary(p => p.Id, p => p.Name);
 }

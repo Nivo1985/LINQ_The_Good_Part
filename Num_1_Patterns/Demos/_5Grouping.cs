@@ -22,6 +22,8 @@ public class _5Grouping: Basic
 
         return result;
     }
-    public Dictionary<string, List<Person>> New() =>  people.GroupBy(p => p.Country)
+    public Dictionary<string, List<Person>> New() =>  
+        people
+            .GroupBy(p => p.Country)
             .ToDictionary(p=>p.Key,p=>p.ToList());
 }

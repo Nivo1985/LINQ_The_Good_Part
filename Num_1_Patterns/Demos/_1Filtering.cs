@@ -16,5 +16,8 @@ public class _1Filtering: Basic
         }
     }
 
-    public void New() => people.Where(p=> p.Id > 1).ToList().ForEach(p=> Console.WriteLine(p.Name));
+    public void New() => people
+    .Where(p=> p.Id > 1)
+    .ToList()
+    .ForEach(p=> Console.WriteLine(p.Name));
 }
